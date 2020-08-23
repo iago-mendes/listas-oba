@@ -1,0 +1,243 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=1cm, bottom=2.1cm, left=2cm, right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx, caption}
+\usepackage{float}
+\usepackage{amsmath, amsfonts, amssymb, esint}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{wallpaper}
+
+\CenterWallPaper{1}{./img/background.png}
+
+\definecolor{red}{rgb}{1,0,0}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\newcommand{\cabecalho}[4]
+{
+	\begin{figure}
+		\centering
+		\href{https://ligaolimpicadeastronomia.com.br/}{\includegraphics[scale=0.6]{./img/logos.png}}
+	\end{figure}
+	
+	\begin{center}
+		\begin{large}
+			\textbf{#1}	
+		\end{large}
+			\linebreak Listas OBA (Nível 4) -- #2ª Lista
+			\linebreak #3
+		\end{center}
+	
+	\begin{flushright}
+		Material elaborado por \textbf{#4}
+	\end{flushright}
+}
+
+\newcommand{\red}[1]
+{
+	\textcolor{red}{#1}
+}
+
+\begin{document}
+	\cabecalho{\textcolor{red}{Gabarito}}{2}{Mecânica Celeste}{Iago Braz Mendes}
+	
+	\begin{flushleft}
+	\begin{itemize}
+		\item \textbf{Questão 1) (1 ponto)} Medir distâncias sempre foi uma tarefa importante dentro da Astronomia e um dos métodos mais simples e conhecidos é o uso da paralaxe ($\pi$), que nada mais é do que uma medida de ângulo feita ao longo da translação terrestre ao redor do Sol. Observe o esquema a seguir:
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.8]{./img/1.png}
+			\end{figure}
+			Ele representa como é possível medir a paralaxe ($\pi$), por meio da medição do deslocamento angular da estrela em relação às estrelas de fundo (as quais podemos consider como fixas na Esfera Celeste neste caso) durante um período de tempo $\Delta t$ que a Terra leva para ir de $T_1$ para $T_2$ (posições na órbita terrestre). No esquema, $R_T$ é o raio orbital da terra ($R_T = 1 \; UA \textrm{ (unidade astronômica)} \simeq 1.5 \cdot 10^{11} \; m$) e $r$ é a distância da estrela, a qual queremos determinar.
+			\begin{itemize}
+				\item \textbf{Pergunta 1a) (0,25 ponto)} Qual o valor aproximado de $\Delta t$ de acordo com o esquema?
+					\begin{itemize}
+						\item[$(\quad)$] $365,25$ dias
+						\item[$(\textcolor{red}{X})$] $182,625$ dias
+						\item[$(\quad)$] $23h \, 56min$
+						\item[$(\quad)$] $11h \, 58min$
+					\end{itemize}
+				\item \textbf{Pergunta 1b) (0,25 ponto)} Desenvolva uma fórmula para calcular $r$ a partir de $R_T$ e $\pi$.
+					\textcolor{red}{\begin{itemize}
+						\item Podemos calcular a tangente de $\pi$ a partir do triângulo vermelho do esquema:
+							$$\tan \pi = \frac{R_T}{r}$$
+						\item Agora, basta manipular as variáveis:
+							$$r = \frac{R_T}{\tan \pi}$$
+					\end{itemize}}
+					\textbf{Resposta 1b)}: $\textcolor{red}{r = R_T / \tan \pi}$
+				\item \textbf{Pergunta 1c) (0,25 ponto)} Sabendo que $1 \; pc \simeq 206.265 \; UA$, melhore a fórmula encontrada na pergunta anterior para que $r$ seja dado em parsecs ($pc$) e $\pi$ em segundos de arco ($''$). \linebreak
+					Dica: substitua o valor de $R_T$.
+					\textcolor{red}{\begin{itemize}
+						\item Substituindo o valor de $R_T$ e usando a aproximação dada, temos a seguinte fórmula, em que as unidades estão entre parênteses para o efeito de ênfase:
+							$$r \; (UA) = \frac{1 \; (UA)}{\pi \; (rad)}$$
+						\item Agora, precisamos converter a unidade de $\pi$ de radianos para segundos de arco:
+							$$\pi \; (rad) = \frac{180}{3,14} \cdot 60 \cdot 60 \cdot \pi \; ('') \simeq 206.369 \cdot \pi \; ('') $$
+						\item Por fim, basta aplicar a conversão de ângulos na fórmula e usar a aproximação de $1 \; pc$:
+							$$\pi \; (pc) = \frac{1 \; (pc)}{\pi \; ('')}$$
+					\end{itemize}}
+					\textbf{Resposta 1c)}: \textcolor{red}{$r = 1 / \pi$}
+				\item \textbf{Pergunta 1d) (0.25 ponto)} Sirius -- a estrela mais brilhante da esfera celeste -- possui uma paralaxe de $0.379''$. Qual a sua distância até a Terra em parsecs? \linebreak
+					Observação: sua resposta deve conter pelo menos 2 casas decimais.
+					\textcolor{red}{\begin{itemize}
+						\item Basta aplicar o valor na fómula:
+							$$r = \frac{1}{0.379} \simeq 2,64 \; pc$$
+					\end{itemize}}
+					\textbf{Resposta 1d)}: \textcolor{red}{$2,64 \; pc$}
+			\end{itemize}
+			
+		\item \textbf{Questão 2) (1 ponto)} A energia mecânica ($E$) de um corpo em órbita é dada pela soma da energia cinética ($K$) e da energia gravitacional ($U$). Ou seja:
+			$$E=K+U$$
+			\begin{itemize}
+				\item \textbf{Pergunta 2a) (0,5 ponto)} Um corpo orbitante atinge a velocidade de escape ($v_{esc}$) quando $E=0$. Sabendo disso, encontre a fórmula de $v_{esc}$. \linebreak
+					Dica: $U = - \frac{GMm}{r}$, em que $G$ é a constante gravitacional, $M$ e $m$ são massas de 2 corpos (considere que $m$ orbita $M$), e $r$ é a distância de $m$ até $M$.
+					\red{\begin{itemize}
+						\item Igualando $E$ a $0$, temos:
+							$$E = K + U = \frac{mv_{esc}^2}{2} - \frac{GMm}{r} = 0 \quad \therefore \quad \frac{mv_{esc}^2}{2} = \frac{GMm}{r}$$
+							$$\therefore \quad v_{esc} = \sqrt{\frac{2GM}{r}}$$
+					\end{itemize}}
+					\textbf{Resposta 2a)}: $\red{v_{esc} = \sqrt{\frac{2GM}{r}}}$
+				\item \textbf{Pergunta 2b) (0,5 ponto)} A partir de conceitos mais avançados, é possível encontrar a seguinte fórmula para $E$:
+					$$E = -\frac{GMm}{2a}$$
+					em que $a$ é o semi-eixo maior da órbita. Comparando as 2 equações de $E$ mostradas nesta questão, encontre a fórmula da velocidade orbital $v$ de $m$ a qualquer distância $r$ de $M$.
+					\red{\begin{itemize}
+						\item Igualando as 2 equações mostradas nesta questão, temos:
+							$$E = K + U = \frac{mv^2}{2} - \frac{GMm}{r} = - \frac{GMm}{2a}$$
+							$$\therefore \quad v^2 = \frac{2GM}{r} - \frac{GM}{a} \quad \therefore \quad v = \sqrt{GM \left( \frac{2}{r} - \frac{1}{a} \right)}$$
+					\end{itemize}}
+					\textbf{Resposta 2b)}: $\red{v = \sqrt{GM \left( \frac{2}{r} - \frac{1}{a} \right)}}$
+			\end{itemize}
+			
+		\item \textbf{Questão 3) (1 ponto)} Devido ao esforço de Loinha -- estudante apresentada na 1ª lista -- nas Seletivas Online, ela foi aceita para as Seletivas Presenciais, em Barra do Piraí-RJ. Enquanto ela estava aprofundando seus estudos em Mecânica Celeste, achou interessante o tópico de Pontos Lagrangianos e decidiu fazer uma maquete do Sistema Solar ressaltando os Objetos Troianos na órbita de Júpiter. \linebreak \linebreak
+			Contudo, antes de fazer a maquete, Loinha desenhou o seguinte esquema para poder entender um pouco mais sobre esse tópico:
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.5]{./img/3.png}
+			\end{figure}
+			Além disso, Loinha anotou em seu caderno que os pontos $L_1$, $L_2$ e $L_3$ são instáveis gravitacionalmente, enquanto que os pontos $L_4$ e $L_5$ são estáveis.
+			\begin{itemize}
+				\item \textbf{Pergunta 3a) (0,25 ponto)} O que os Pontos de Lagrange possuem em comum?
+					\red{\begin{itemize}
+							\item Pela definição, Pontos Lagrangianos são pontos especiais num sistema orbital de dois corpos massivos que possuem um mesmo período orbital.
+					\end{itemize}}
+					\begin{itemize}
+						\item[$(\red{X})$] Período orbital
+						\item[$(\quad)$] Semi-eixo maior
+						\item[$(\quad)$] Semi-eixo menor
+					\end{itemize}
+				\item \textbf{Pergunta 3b) (0,25 ponto)} Em qual categoria os Objetos Troianos podem ser classificados?
+					\red{\begin{itemize}
+						\item Objetos troianos podem ser Asteroides ou Satélites.
+					\end{itemize}}
+					\begin{itemize}
+						\item[$(\quad)$] Planetas
+						\item[$(\quad)$] Planetas anões
+						\item[$(\quad)$] Cometas
+						\item[$(\red{X})$] Asteroides
+					\end{itemize}
+				\item \textbf{Pergunta 3c (0,5 ponto)} Em qual(s) Ponto(s) Lagrangiano(s) Loinha deve colocar os Objetos Troianos na órbita de Júpiter para que a maquete seja mais realista?
+					\red{\begin{itemize}
+						\item Os asteroides se acumulam nas regiões de maior estabilidade gravitacional. Assim, de acordo com as anotações de Loinha, $L_4$ e $L_5$ são a resposta.
+					\end{itemize}}
+					\begin{itemize}
+						\item[$(\quad)$] $L_1$
+						\item[$(\quad)$] $L_2$
+						\item[$(\quad)$] $L_3$
+						\item[$(\red{X})$] $L_4$
+						\item[$(\red{X})$] $L_5$
+					\end{itemize}
+			\end{itemize}
+			
+		\item \textbf{Questão 4) (1 ponto)} Em 2020, foi relavada a descoberta do exoplaneta \textit{AU Microscopii b}, o qual foi observado pelo \textit{Transiting Exoplanet Survey Satellite (TESS)} por meio do método de trânsito. Observe uma simulação disponível \href{https://exoplanets.nasa.gov/exoplanet-catalog/7635/au-microscopii-b/}{neste site}, a qual mostra o planeta orbitando a sua estrela (\textit{AU Microscopii}):
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.5]{./img/4.png}
+			\end{figure}
+			\begin{itemize}
+				\item \textbf{Pergunta 4a) (0,5 ponto)} Com os dados a seguir (simplificados para facilitar as contas), calcule a massa da estrela \textit{AU Microscopii}. \linebreak
+					\textbf{Dados:}
+						\begin{itemize}
+							\item[$>$] Período orbital do exoplaneta: $T = 8,5 \; \textrm{dias} = 3,06 \cdot 10^4 \; s \approx 3 \cdot 10^4 \; s$
+							\item[$>$] Raio orbital do exoplaneta: $r = 0,066 \; UA \simeq 9,87 \cdot 10^9 \; m \approx 1 \cdot 10^{10} \; m$
+							\item[$>$] Constante gravitacional: $G \simeq 6,67 \cdot 10^{-11} \; \frac{m^3}{kg \, s^2} \approx 7 \cdot 10^{-7} \; \frac{m^3}{kg \, s^2}$
+							\item[$>$] Aproximação de pi: $\pi \approx 3$
+						\end{itemize}
+					\textbf{Dica:} na 3ª Lei de Kepler desenvolvida, a constante de proporcionalidade pode ser calculada da seguinte forma:
+						$$k = \frac{4 \pi^2}{G(M+m)} \simeq \frac{4 \pi^2}{GM} \quad \leftrightarrow \quad M>>m$$
+					\red{\begin{itemize}
+						\item Basta aplicar a 3ª Lei de Kepler:
+							$$\frac{T^2}{r^3} = \frac{4 \pi^2}{GM} \quad \therefore \quad M = \frac{4 \pi^2 r^3}{G T^2} = \frac{4 \cdot 3^2 \cdot (1 \cdot 10^{10})^3}{7 \cdot 10^{-11} \cdot (3 \cdot 10^4)^2}$$
+							$$\therefore \quad M \simeq 5,71 \cdot 10^{32} \; kg \approx 6 \cdot 10^{32} \; kg$$
+					\end{itemize}}
+					\textbf{Resposta 4a)}: $\red{6 \cdot 10^{32} \; kg}$
+				\item \textbf{Pergunta 4b) (0,5 ponto)} Com os seguintes dados, encontre a razão entre as constantes $k_M$ (sistema estelar de \textit{AU Microscopii}) e $k_S$ (sistema solar). \linebreak
+					\textbf{Dados:}
+						\begin{itemize}
+							\item[$>$] Período orbital da Terra: $T \simeq 3,15 \cdot 10^7 \; s \approx 3 \cdot 10^7 \; s$
+							\item[$>$] Raio orbital da Terra: $r = 1 \; UA \simeq 1,5 \cdot 10^11 \; m$
+							\item[$>$] Massa do Sol: $M \simeq 2 \cdot 10^{30} \; kg$
+						\end{itemize}
+					\red{\begin{itemize}
+						\item Utilizando o ramo da esquerda da 3ª Lei de Kepler, a constante $k$ pode ser calculada da seguinte forma:
+							$$k = \frac{T^2}{r^3}$$
+						\item Assim, dividindo $k_S$ por $k_M$, temos:
+							$$\frac{k_S}{k_M} = \left( \frac{T_S}{T_M} \right)^2 \cdot \left( \frac{r_M}{r_S} \right)^3 = \left( \frac{3 \cdot 10^7}{3 \cdot 10^4} \right)^2 \cdot \left( \frac{1 \cdot 10^{10}}{1,5 \cdot 10^{11}} \right)^3$$
+							$$\therefore \quad \frac{k_S}{k_M} = 0.\overline{6} \cdot 10^3 \approx 700$$
+					\end{itemize}}
+					\textbf{Resposta 4b)}: $\red{700}$
+			\end{itemize}
+		
+		\item \textbf{Questão 5) (1 ponto)} Apesar de a nossa estrela -- o Sol -- ser solitária, é comum encontrar sistemas estelares com 2 ou até mesmo mais componentes. Em um sistema binário, de acordo com a relação das massas, a massa e a distância ao baricentro (centro de massa) são inversalmente proporcionais, ou seja:
+			$$m_Ar_A=m_Br_B$$
+		Além disso, geralmente é útil utilizarmos uma simplificação da 3ª Lei de Kepler, em que conseguimos retirar as constantes ao usar unidades astronômicas ($UA$) para $r$ ($r=r_A+r_B$), anos terrestres ($a$) para $T$, e massas solares ($M_{Sol}$) para $M$ ($M=m_A+m_B$). Com isso, temos a seguinte equação:
+			$$\frac{r^3}{T^2}=M$$
+		Por fim, vale lembrar da Lei da Gravitação Universal, desenvolvida por Newton, a qual estabelece uma fórmula para a força gravitacional:
+			$$| F_g | = \frac{Gm_Am_B}{r^2}$$
+		Dito isso, considere o esquema de um sistema binário a seguir:
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.4]{./img/5.png}
+			\end{figure}
+			em que $A$ e $B$ são 2 estrelas conectadas gravitacionalmente, e $r_A$ e $r_B$ são as suas respectivas distâncias ao centro de massa.
+			\begin{itemize}
+				\item \textbf{Pergunta 5a) (0,1 ponto)} Se $m_A=m_B= 5 \; M_{Sol}$ e $r_A=2 \; UA$, qual o valor de $r_B$?
+					\red{\begin{itemize}
+						\item Basta usar a relação das massas:
+							$$m_Ar_A=m_Br_B \quad \therefore \quad r_B = \frac{m_Ar_A}{m_B} = r_A$$
+							$$\therefore \quad r_B=2 \; UA$$
+					\end{itemize}}
+					\textbf{Resposta 5a)}: $\red{2 \; UA}$
+				\item \textbf{Pergunta 5b) (0,4 ponto)} Calcule o valor de $T$ em anos terrestres.
+					\red{\begin{itemize}
+						\item Usando a 3ª Lei de Kepler simplificada, temos:
+							$$\frac{r^3}{T^2} = M \quad \therefore \quad T = \sqrt{\frac{r^3}{M}} = \sqrt{\frac{(r_A+r_B)^3}{m_A+m_B}}$$
+							$$\therefore \quad T = \sqrt{\frac{(2+2)^3}{5+5}} = \sqrt{6,4} \; a$$
+					\end{itemize}}
+					\textbf{Resposta 5b)}: $\red{\sqrt{6,4} \; a}$
+				\item \textbf{Pergunta 5c) (0,5 ponto)} Calcule o módulo da força gravitacional entre $A$ e $B$ em newtons. \linebreak
+					\textbf{Dados:}
+						\begin{itemize}
+							\item[$>$] Massa solar: $M_{Sol} \simeq 2 \cdot 10^{30}$
+							\item[$>$] Unidade astronômica: $1 \; UA \simeq 1,5 \cdot 10^{11} \; m$
+							\item[$>$] Constante gravitacional: $G \simeq 6,67 \cdot 10^{-11} \; \frac{m^3}{kg \, s^2} \approx 7 \cdot 10^{-7} \; \frac{m^3}{kg \, s^2}$
+						\end{itemize}
+						\red{\begin{itemize}
+							\item Usando a Lei da Gravitação Universal, temos:
+								$$|F_g| = \frac{Gm_Am_B}{r^2} = \frac{7 \cdot 10^{-11} \cdot 5 \cdot 2 \cdot 10^{30} \cdot 5 \cdot 2 \cdot 10^{30}}{(4 \cdot 1,5 \cdot 10^{11})^2}$$
+								$$\therefore \quad |F_g| \approx 2 \cdot 10^{28} \; N$$
+						\end{itemize}}
+					\textbf{Resposta 5c)}: $\red{2 \cdot 10^{28} \; N}$
+			\end{itemize}
+	\end{itemize}
+	\end{flushleft}
+	\begin{flushright}
+		\begin{large}
+			Bons estudos!
+		\end{large}
+	\end{flushright}
+\end{document}
