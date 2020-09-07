@@ -1,0 +1,66 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=1cm, bottom=2.1cm, left=2cm, right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx, caption}
+\usepackage{float}
+\usepackage{amsmath, amsfonts, amssymb, esint}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{wallpaper}
+
+\CenterWallPaper{1}{./img/background.png}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\definecolor{red}{rgb}{1,0,0}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\newcommand{\cabecalho}[4]
+{
+	\begin{figure}
+		\centering
+		\href{https://ligaolimpicadeastronomia.com.br/}{\includegraphics[scale=0.6]{./img/logos.png}}
+	\end{figure}
+	
+	\begin{center}
+		\begin{large}
+			\textbf{#1}	
+		\end{large}
+			\linebreak Listas OBA (Nível 4) -- #2ª Lista
+			\linebreak #3
+		\end{center}
+	
+	\begin{flushright}
+		Material elaborado por \textbf{#4}
+	\end{flushright}
+}
+
+\begin{document}
+	\cabecalho{\red{Gabarito}}{5}{Sistema Solar e História}{Iago Mendes}
+	
+	\begin{flushleft}
+	\begin{itemize}
+		\item \textbf{Questão 1) (1 ponto)}
+		
+		\item \textbf{Questão 2) (1 ponto)}
+		
+		\item \textbf{Questão 3) (1 ponto)} 
+			
+		\item \textbf{Questão 4) (1 ponto)} 
+				
+		\item \textbf{Questão 5) (1 ponto)} 
+			
+	\end{itemize}
+	\end{flushleft}
+	\begin{flushright}
+		\begin{large}
+			Bons estudos!
+		\end{large}
+	\end{flushright}
+\end{document}
