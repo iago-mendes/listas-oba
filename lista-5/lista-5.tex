@@ -9,12 +9,22 @@
 \usepackage{wallpaper}
 \usepackage{array}
 
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\definecolor{brown}{rgb}{0.6,0.2,0}
+\definecolor{red}{rgb}{1,0,0}
+\definecolor{green}{rgb}{0,0.8,0}
+\definecolor{yellow}{rgb}{1,1,0}
+
 \CenterWallPaper{1}{./img/background.png}
 
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
-    filecolor=magenta,      
+    filecolor=blue,      
     urlcolor=cyan,
 }
 
@@ -101,7 +111,67 @@
 				\end{itemize}
 			\end{multicols}
 
-		\item \textbf{Questão 5) (1 ponto)} 
+		\item \textbf{Questão 5) (1 ponto)} Por muitos anos, houve o debate entre qual modelo seria o mais adequado para descrever o nosso sistema solar: modelo geocêntrico ou heliocêntrico. Para responder as perguntas desta questão, considere os esquemas seguintes, os quais mostram o funcionamento básico de cada modelo:
+			\begin{multicols}{2}
+				\begin{figure}[H] \label{img:geocentrico}
+					\centering
+					\begin{tikzpicture}[scale=0.7]
+					[
+						line cap=round,
+						line join=round,
+						>=triangle 45,
+						x=1cm,
+						y=1cm
+					]
+						\draw [line width=2pt] (0,0) circle (4cm);
+						\draw [line width=2pt] (4,0) circle (1cm);
+						\draw [->,line width=2pt,color=brown] (5,0) -- (5,1);
+						\draw [->,line width=2pt,color=red] (4,0) -- (4,2);
+						\draw (0,0) node[anchor=north west] {Terra};
+						\draw (5,0) node[anchor=north west] {Planeta};
+						\begin{scriptsize}
+							\draw [fill=green] (0,0) circle (4.5pt);
+							\draw [fill=red] (4,0) circle (3pt);
+							\draw [fill=brown] (5,0) circle (4.5pt);
+						\end{scriptsize}
+					\end{tikzpicture}
+					\captionsetup{labelformat=empty}
+					\caption{\textbf{Esquema 1:} Modelo geocêntrico}
+				\end{figure}
+				\begin{figure}[H] \label{img:heliocentrico}
+					\centering
+					\begin{tikzpicture}[scale=0.7]
+					[
+						line cap=round,
+						line join=round,
+						>=triangle 45,
+						x=1cm,
+						y=1cm
+					]
+						\draw [line width=2pt] (0,0) circle (4cm);
+						\draw [->,line width=2pt,color=brown] (4,0) -- (4,2);
+						\draw (0,0) node[anchor=north west] {Sol};
+						\draw (4,0) node[anchor=north west] {Planeta};
+						\begin{scriptsize}
+							\draw [fill=yellow] (0,0) circle (4.5pt);
+							\draw [fill=brown] (4,0) circle (4.5pt);
+						\end{scriptsize}
+					\end{tikzpicture}
+					\captionsetup{labelformat=empty}
+					\caption{\textbf{Esquema 2:} Modelo heliocêntrico}
+				\end{figure}
+			\end{multicols}
+			\begin{itemize}
+				\item \textbf{Pergunta 5a) (0,25 ponto)} No \hyperref[img:geocentrico]{Esquema 1}, qual o nome dado (somente dentro desse modelo) para o ponto vermelho que está no centro do círculo menor feito pelo planeta?
+					\begin{multicols}{2}
+						\begin{itemize}
+							\item[$(\quad)$] Baricentro
+							\item[$(\quad)$] Ponto Vernal
+							\item[$(\quad)$] Epicentro
+							\item[$(\quad)$] Ápex
+						\end{itemize}
+					\end{multicols}
+			\end{itemize}
 			
 	\end{itemize}
 
