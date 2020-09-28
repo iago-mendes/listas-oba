@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  28 SEP 2020 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  28 SEP 2020 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,25 +570,35 @@ File: img/2b.png Graphic file (type png)
 <use img/2b.png>
 Package pdftex.def Info: img/2b.png  used on input line 90.
 (pdftex.def)             Requested size: 394.97466pt x 68.25482pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+<img/3.png, id=26, 918.43124pt x 512.91624pt>
+File: img/3.png Graphic file (type png)
+<use img/3.png>
+Package pdftex.def Info: img/3.png  used on input line 109.
+(pdftex.def)             Requested size: 459.2145pt x 256.45749pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 113.
+Package pdftex.def Info: ./img/background.png  used on input line 110.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [3 <./img/2a.png> <./img/2b.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 134.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+ [4 <./img/3.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./simulado.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `simulado.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 8450 strings out of 483140
- 127806 string characters out of 5965151
+ 8458 strings out of 483140
+ 127897 string characters out of 5965151
  399387 words of memory out of 5000000
- 23306 multiletter control sequences out of 15000+600000
+ 23311 multiletter control sequences out of 15000+600000
  538433 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,13n,42p,5084b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -598,10 +608,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on simulado.pdf (3 pages, 238513 bytes).
+Output written on simulado.pdf (4 pages, 316273 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
