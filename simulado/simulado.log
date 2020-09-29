@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  29 SEP 2020 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  29 SEP 2020 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,25 +631,138 @@ File: ./img/background.png Graphic file (type png)
 Package pdftex.def Info: ./img/background.png  used on input line 176.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
+91.
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
+91.
+
+Missing character: There is no · in font cmr12!
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 197.
+Package pdftex.def Info: ./img/background.png  used on input line 192.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+[7]
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 199--199
+ []|$\OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 199--199
+ []|$\OT1/cmr/m/n/12 12\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 199--199
+ []|$\OT1/cmr/m/n/12 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 199--199
+ []|$\OT1/cmr/m/n/12 14\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 199--199
+ []|$\OT1/cmr/m/n/12 15\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
+ []
+
+
+Overfull \hbox (5.84726pt too wide) in paragraph at lines 200--200
+ []|$[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m[]=m[]\OT1/cmr/m/n/12 )$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 00$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 34$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 59$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 88$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 96$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 10$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 95$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 20$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 30$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 53$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 60$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 64$| 
+ []
+
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 200--200
+ []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 71$| 
+ []
+
+
+Overfull \hbox (19.53043pt too wide) in paragraph at lines 193--202
+ [] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 244.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
  (./simulado.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `simulado.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 8463 strings out of 483140
- 127945 string characters out of 5965151
+ 8465 strings out of 483140
+ 127971 string characters out of 5965151
  400387 words of memory out of 5000000
- 23313 multiletter control sequences out of 15000+600000
+ 23314 multiletter control sequences out of 15000+600000
  538433 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,13n,42p,5084b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -662,10 +775,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb>
-Output written on simulado.pdf (7 pages, 351245 bytes).
+Output written on simulado.pdf (8 pages, 358713 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 100 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
