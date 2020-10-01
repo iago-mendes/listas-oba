@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  1 OCT 2020 14:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  1 OCT 2020 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,52 +557,39 @@ File: uesint.fd
 )
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 69.
+Package pdftex.def Info: ./img/background.png  used on input line 62.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [2]
 <img/2a.png, id=25, 779.91376pt x 127.47626pt>
 File: img/2a.png Graphic file (type png)
 <use img/2a.png>
-Package pdftex.def Info: img/2a.png  used on input line 79.
+Package pdftex.def Info: img/2a.png  used on input line 81.
 (pdftex.def)             Requested size: 389.95593pt x 63.73796pt.
-<img/2b.png, id=26, 789.95125pt x 136.51pt>
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 85.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+ [3 <./img/2a.png>]
+<img/2b.png, id=34, 789.95125pt x 136.51pt>
 File: img/2b.png Graphic file (type png)
 <use img/2b.png>
-Package pdftex.def Info: img/2b.png  used on input line 92.
+Package pdftex.def Info: img/2b.png  used on input line 94.
 (pdftex.def)             Requested size: 394.97466pt x 68.25482pt.
-<img/3.png, id=27, 918.43124pt x 512.91624pt>
+<img/3.png, id=35, 918.43124pt x 512.91624pt>
 File: img/3.png Graphic file (type png)
 <use img/3.png>
-Package pdftex.def Info: img/3.png  used on input line 112.
+Package pdftex.def Info: img/3.png  used on input line 114.
 (pdftex.def)             Requested size: 459.2145pt x 256.45749pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 113.
+Package pdftex.def Info: ./img/background.png  used on input line 117.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [3 <./img/2a.png> <./img/2b.png>]
+ [4 <./img/2b.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 127.
+Package pdftex.def Info: ./img/background.png  used on input line 134.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [4 <./img/3.png>]
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-35.
-
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-35.
-
-Missing character: There is no � in font cmr12!
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-36.
-
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-36.
-
-Missing character: There is no � in font cmr12!
+ [5 <./img/3.png>]
 
 LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
 37.
@@ -621,201 +608,220 @@ LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
 38.
 
 Missing character: There is no � in font cmr12!
-<img/5.png, id=44, 770.88pt x 578.16pt>
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
+39.
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
+39.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
+40.
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
+40.
+
+Missing character: There is no � in font cmr12!
+<img/5.png, id=48, 770.88pt x 578.16pt>
 File: img/5.png Graphic file (type png)
 <use img/5.png>
-Package pdftex.def Info: img/5.png  used on input line 152.
+Package pdftex.def Info: img/5.png  used on input line 154.
 (pdftex.def)             Requested size: 385.43906pt x 289.07928pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 155.
+Package pdftex.def Info: ./img/background.png  used on input line 158.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
-[5]
+[6 <./img/5.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 182.
-(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [6 <./img/5.png>]
-File: ./img/background.png Graphic file (type png)
-<use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 212.
+Package pdftex.def Info: ./img/background.png  used on input line 185.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [7]
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
-27.
-
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
-27.
-
-Missing character: There is no � in font cmr12!
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 228.
+Package pdftex.def Info: ./img/background.png  used on input line 229.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
-[8]
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 235--235
+ [8]
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
+29.
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
+29.
+
+Missing character: There is no � in font cmr12!
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 237--237
  []|$\OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 237--237
  []|$\OT1/cmr/m/n/12 12\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 237--237
  []|$\OT1/cmr/m/n/12 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 237--237
  []|$\OT1/cmr/m/n/12 14\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 237--237
  []|$\OT1/cmr/m/n/12 15\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
  []
 
 
-Overfull \hbox (5.84726pt too wide) in paragraph at lines 236--236
+Overfull \hbox (5.84726pt too wide) in paragraph at lines 238--238
  []|$[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m[]=m[]\OT1/cmr/m/n/12 )$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 00$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 34$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 59$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 88$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 96$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 10$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 95$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 20$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 30$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 53$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 60$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 64$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 238--238
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 71$| 
  []
 
 
-Overfull \hbox (19.53043pt too wide) in paragraph at lines 229--238
+Overfull \hbox (19.53043pt too wide) in paragraph at lines 231--240
  [] 
  []
 
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 274.
+Package pdftex.def Info: ./img/background.png  used on input line 259.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
 [9]
-<img/10.png, id=72, 321.2pt x 273.02pt>
-File: img/10.png Graphic file (type png)
-<use img/10.png>
-Package pdftex.def Info: img/10.png  used on input line 293.
-(pdftex.def)             Requested size: 160.59961pt x 136.50966pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 296.
+Package pdftex.def Info: ./img/background.png  used on input line 289.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [10]
+<img/10.png, id=76, 321.2pt x 273.02pt>
+File: img/10.png Graphic file (type png)
+<use img/10.png>
+Package pdftex.def Info: img/10.png  used on input line 295.
+(pdftex.def)             Requested size: 160.59961pt x 136.50966pt.
 <img/10a.png, id=77, 283.0575pt x 211.79124pt>
 File: img/10a.png Graphic file (type png)
 <use img/10a.png>
-Package pdftex.def Info: img/10a.png  used on input line 299.
+Package pdftex.def Info: img/10a.png  used on input line 301.
 (pdftex.def)             Requested size: 141.5284pt x 105.89536pt.
-<img/10b.png, id=78, 350.30875pt x 284.06125pt>
-File: img/10b.png Graphic file (type png)
-<use img/10b.png>
-Package pdftex.def Info: img/10b.png  used on input line 310.
-(pdftex.def)             Requested size: 175.15395pt x 142.03026pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 327.
+Package pdftex.def Info: ./img/background.png  used on input line 305.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [11 <./img/10.png> <./img/10a.png> <./img/10b.png>]
-<img/11.png, id=91, 963.6pt x 212.795pt>
+ [11 <./img/10.png> <./img/10a.png>]
+<img/10b.png, id=88, 350.30875pt x 284.06125pt>
+File: img/10b.png Graphic file (type png)
+<use img/10b.png>
+Package pdftex.def Info: img/10b.png  used on input line 312.
+(pdftex.def)             Requested size: 175.15395pt x 142.03026pt.
+<img/11.png, id=89, 963.6pt x 212.795pt>
 File: img/11.png Graphic file (type png)
 <use img/11.png>
-Package pdftex.def Info: img/11.png  used on input line 339.
+Package pdftex.def Info: img/11.png  used on input line 341.
 (pdftex.def)             Requested size: 385.43317pt x 85.11649pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 358.
+Package pdftex.def Info: ./img/background.png  used on input line 342.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [12 <./img/11.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 405.
+ [12 <./img/10b.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 405.
+Package pdftex.def Info: ./img/background.png  used on input line 380.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 405.
+ [13 <./img/11.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 407.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
  (./simulado.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 405.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 405.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
 Package rerunfilecheck Info: File `simulado.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 405.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 407.
  ) 
 Here is how much of TeX's memory you used:
- 8511 strings out of 483140
- 128539 string characters out of 5965151
- 401387 words of memory out of 5000000
+ 8512 strings out of 483140
+ 128546 string characters out of 5965151
+ 400387 words of memory out of 5000000
  23341 multiletter control sequences out of 15000+600000
  539039 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,13n,42p,5108b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,14n,42p,5108b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/iago/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
@@ -827,10 +833,10 @@ ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on simulado.pdf (13 pages, 759463 bytes).
+Output written on simulado.pdf (14 pages, 761742 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
