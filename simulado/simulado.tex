@@ -1,5 +1,5 @@
 \documentclass[a4paper, 12pt]{article}
-\usepackage[top=1cm, bottom=2.1cm, left=2cm, right=2cm]{geometry}
+\usepackage[top=1.5cm, bottom=2.2cm, left=2cm, right=2cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx, caption}
 \usepackage{float}
@@ -468,24 +468,58 @@
                         \end{itemize}
                 \end{itemize}
             
-            \item \textbf{Questão 13) (1 ponto) [Seletiva OBA Online 2018-19 adaptada]} Encontre a magnificação, ou ampliação, de um telescópio $8''$ Schmidt-Cassegrain f/10 quando usado com uma ocular de $20 \, mm$ ($1'' \approx 25,4 \, mm$).
+            \item \textbf{Questão 13) (1 ponto) [Seletiva OBA Online 2018-19 adaptada]}
                 \begin{itemize}
-                    \item[$(\red{X})$] $\approx 100 \, X$
-                    \item[$(\quad)$] $\approx 20 \, X$
-                    \item[$(\quad)$] $\approx 80 \, X$
-                    \item[$(\quad)$] $\approx 254 \, X$
+                    \item \textbf{Pergunta 13) (1 ponto)} Encontre a magnificação, ou ampliação, de um telescópio $8''$ Schmidt-Cassegrain f/10 quando usado com uma ocular de $20 \, mm$ ($1'' \approx 25,4 \, mm$).
+                        \red{\begin{itemize}
+                            \item Primeiramente, vamos calcular o diâmetro do espelho:
+                                \begin{equation*}
+                                    D = 8 '' = 8 \cdot 25,4 = 203,2 \, mm
+                                \end{equation*}
+                            \item Agora, usando a razão focal, podemos encontrar a distância focal do telescópio:
+                                \begin{equation*}
+                                    \frac{f}{10} = D \quad \therefore \quad f = 10 \cdot D = 10 \cdot 203,2 = 2.032 \, mm
+                                \end{equation*}
+                            \item Por fim, podemos calcular a ampliação:
+                                \begin{equation*}
+                                    A = \frac{f}{f_o} = \frac{2.032}{20} \approx 100
+                                \end{equation*}
+                        \end{itemize}}
+                        \begin{itemize}
+                            \item[$(\red{X})$] $\approx 100 \, X$
+                            \item[$(\quad)$] $\approx 20 \, X$
+                            \item[$(\quad)$] $\approx 80 \, X$
+                            \item[$(\quad)$] $\approx 254 \, X$
+                        \end{itemize}
                 \end{itemize}
             
-            \item \textbf{Questão 14) (1 ponto) [Seletiva OBA Presencial 2018-19 adaptada]} A paralaxe heliocêntrica de Canopus, segundo os dados do satélite Hipparcos, vale $10,42$ milisegundos de arco ($mas$). \linebreak\linebreak Dado: magnitude aparente de Canopus = $-0,72$
+            \item \textbf{Questão 14) (1 ponto) [Seletiva OBA Presencial 2016-17 adaptada]} A paralaxe heliocêntrica de Canopus, segundo os dados do satélite Hipparcos, vale $10,42$ milisegundos de arco ($mas$). \linebreak\linebreak Dado: magnitude aparente de Canopus = $-0,72$
                 \begin{itemize}
                     \item \textbf{Pergunta 14a) (0,5 ponto)} Utilize essa informação e o módulo da distância para calcular a magnitude absoluta de Canopus.
+                        \red{\begin{itemize}
+                            \item Usando a paralaxe, podemos calcular a distância de Canopus:
+                                \begin{equation*}
+                                    \pi = \frac{1}{r} \quad \therefore \quad r = \frac{1}{\pi}=\frac{1}{10,42 \cdot 10^{-3}} \approx 95,97 \, pc
+                                \end{equation*}
+                            \item Agora, com o módulo de distância, temos:
+                                \begin{equation*}
+                                    m-M=5 \log r -5 \quad \therefore \quad M = 5 \log r -5-m=5 \cdot \log (95,97)-5-0.72 \approx -5,63
+                                \end{equation*}
+                        \end{itemize}}
                         \begin{itemize}
                             \item[$(\red{X})$] $M = -5,63$
                             \item[$(\quad)$] $M = -0,72$
                             \item[$(\quad)$] $M = -1,44$
                             \item[$(\quad)$] $M = -2,82$
                         \end{itemize}
-                    \item \textbf{Pergunta 14b) (0,5 ponto)} Aproximadamente, quantas vezes ela é mais brilhante do que o Sol?
+                    \item \textbf{Pergunta 14b) (0,5 ponto)} Aproximadamente, quantas vezes ela é mais luminosa do que o Sol? \linebreak Dado: magnitude absoluta do Sol = $+4,80$
+                        \red{\begin{itemize}
+                            \item Usando a relação de Pógson com as magnitudes absolutas, temos:
+                                \begin{equation*} \begin{gathered}
+                                    M_S-M_C = 2,5 \log \left(\frac{L_C}{L_S}\right) \quad \therefore \quad \frac{L_C}{L_S} = 10^{\frac{M_S-M_C}{2,5}} \\
+                                    \therefore \quad \frac{L_C}{L_S} \approx 1,5 \cdot 10^4 = 15.000
+                                \end{gathered} \end{equation*}
+                        \end{itemize}}
                         \begin{itemize}
                             \item[$(\red{X})$] $\approx 15$ mil vezes
                             \item[$(\quad)$] $\approx 30$ mil vezes

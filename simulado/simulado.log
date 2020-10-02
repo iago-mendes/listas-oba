@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  2 OCT 2020 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  2 OCT 2020 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,14 +450,14 @@ LaTeX Font Info:    ... okay on input line 27.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(28.45274pt, 756.84315pt, 59.75095pt)
+* v-part:(T,H,B)=(42.67912pt, 739.77176pt, 62.59596pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=756.84315pt
+* \textheight=739.77176pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-80.81725pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -567,32 +567,32 @@ Package pdftex.def Info: img/2a.png  used on input line 81.
 (pdftex.def)             Requested size: 389.95593pt x 63.73796pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 94.
+Package pdftex.def Info: ./img/background.png  used on input line 84.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [3 <./img/2a.png>]
-<img/2b.png, id=34, 789.95125pt x 136.51pt>
+ [3]
+<img/2b.png, id=32, 789.95125pt x 136.51pt>
 File: img/2b.png Graphic file (type png)
 <use img/2b.png>
 Package pdftex.def Info: img/2b.png  used on input line 104.
 (pdftex.def)             Requested size: 394.97466pt x 68.25482pt.
-<img/3.png, id=35, 918.43124pt x 512.91624pt>
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 131.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+ [4 <./img/2a.png> <./img/2b.png>]
+<img/3.png, id=46, 918.43124pt x 512.91624pt>
 File: img/3.png Graphic file (type png)
 <use img/3.png>
 Package pdftex.def Info: img/3.png  used on input line 140.
 (pdftex.def)             Requested size: 459.2145pt x 256.45749pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 141.
-(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [4 <./img/2b.png>]
-File: ./img/background.png Graphic file (type png)
-<use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 154.
+Package pdftex.def Info: ./img/background.png  used on input line 149.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [5 <./img/3.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 181.
+Package pdftex.def Info: ./img/background.png  used on input line 179.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [6]
 
@@ -638,17 +638,17 @@ Package pdftex.def Info: img/5.png  used on input line 198.
 (pdftex.def)             Requested size: 385.43906pt x 289.07928pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 224.
+Package pdftex.def Info: ./img/background.png  used on input line 212.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
 [7 <./img/5.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 240.
+Package pdftex.def Info: ./img/background.png  used on input line 235.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [8]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 286.
+Package pdftex.def Info: ./img/background.png  used on input line 281.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [9]
 
@@ -660,7 +660,11 @@ LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
 92.
 
 Missing character: There is no · in font cmr12!
-
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 293.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+[10]
 Overfull \hbox (3.54402pt too wide) in paragraph at lines 300--300
  []|$\OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
  []
@@ -762,77 +766,76 @@ Overfull \hbox (19.53043pt too wide) in paragraph at lines 294--303
 
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 303.
+Package pdftex.def Info: ./img/background.png  used on input line 350.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
-[10]
+[11]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 357.
-(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [11]
-File: ./img/background.png Graphic file (type png)
-<use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 377.
+Package pdftex.def Info: ./img/background.png  used on input line 365.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [12]
-<img/10.png, id=92, 321.2pt x 273.02pt>
+<img/10.png, id=88, 321.2pt x 273.02pt>
 File: img/10.png Graphic file (type png)
 <use img/10.png>
 Package pdftex.def Info: img/10.png  used on input line 383.
 (pdftex.def)             Requested size: 160.59961pt x 136.50966pt.
-<img/10a.png, id=93, 283.0575pt x 211.79124pt>
+<img/10a.png, id=89, 283.0575pt x 211.79124pt>
 File: img/10a.png Graphic file (type png)
 <use img/10a.png>
 Package pdftex.def Info: img/10a.png  used on input line 389.
 (pdftex.def)             Requested size: 141.5284pt x 105.89536pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 397.
+Package pdftex.def Info: ./img/background.png  used on input line 390.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [13 <./img/10.png> <./img/10a.png>]
-<img/10b.png, id=104, 350.30875pt x 284.06125pt>
+ [13 <./img/10.png>]
+<img/10b.png, id=101, 350.30875pt x 284.06125pt>
 File: img/10b.png Graphic file (type png)
 <use img/10b.png>
 Package pdftex.def Info: img/10b.png  used on input line 407.
 (pdftex.def)             Requested size: 175.15395pt x 142.03026pt.
-<img/11.png, id=105, 963.6pt x 212.795pt>
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 432.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+ [14 <./img/10a.png> <./img/10b.png>]
+<img/11.png, id=111, 963.6pt x 212.795pt>
 File: img/11.png Graphic file (type png)
 <use img/11.png>
 Package pdftex.def Info: img/11.png  used on input line 447.
 (pdftex.def)             Requested size: 385.43317pt x 85.11649pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 448.
+Package pdftex.def Info: ./img/background.png  used on input line 456.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [14 <./img/10b.png>]
+ [15 <./img/11.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 472.
-(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
-
-[15 <./img/11.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 514.
-File: ./img/background.png Graphic file (type png)
-<use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 514.
+Package pdftex.def Info: ./img/background.png  used on input line 511.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 514.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
+File: ./img/background.png Graphic file (type png)
+<use ./img/background.png>
+Package pdftex.def Info: ./img/background.png  used on input line 548.
+(pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
  (./simulado.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 514.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 514.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 548.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
 Package rerunfilecheck Info: File `simulado.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 514.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 548.
  ) 
 Here is how much of TeX's memory you used:
- 8520 strings out of 483140
- 128614 string characters out of 5965151
- 402387 words of memory out of 5000000
+ 8521 strings out of 483140
+ 128621 string characters out of 5965151
+ 401389 words of memory out of 5000000
  23342 multiletter control sequences out of 15000+600000
  539039 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,13n,42p,5108b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,14n,42p,5108b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/iago/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
@@ -846,10 +849,10 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on simulado.pdf (16 pages, 787214 bytes).
+Output written on simulado.pdf (17 pages, 791545 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
