@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  1 OCT 2020 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  2 OCT 2020 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,189 +643,190 @@ Package pdftex.def Info: ./img/background.png  used on input line 224.
 [7 <./img/5.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 239.
+Package pdftex.def Info: ./img/background.png  used on input line 240.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [8]
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
-73.
-
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
-73.
-
-Missing character: There is no · in font cmr12!
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 274.
+Package pdftex.def Info: ./img/background.png  used on input line 289.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
-[9]
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 281--281
+ [9]
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
+89.
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 2
+89.
+
+Missing character: There is no · in font cmr12!
+
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 297--297
  []|$\OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 281--281
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 297--297
  []|$\OT1/cmr/m/n/12 12\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 281--281
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 297--297
  []|$\OT1/cmr/m/n/12 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 281--281
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 297--297
  []|$\OT1/cmr/m/n/12 14\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 281--281
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 297--297
  []|$\OT1/cmr/m/n/12 15\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0$| 
  []
 
 
-Overfull \hbox (5.84726pt too wide) in paragraph at lines 282--282
+Overfull \hbox (5.84726pt too wide) in paragraph at lines 298--298
  []|$[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m[]=m[]\OT1/cmr/m/n/12 )$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 00$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 34$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 59$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 88$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 96$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 10$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 95$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 20$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 30$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 53$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 60$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 64$| 
  []
 
 
-Overfull \hbox (3.54402pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.54402pt too wide) in paragraph at lines 298--298
  []|$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 71$| 
  []
 
 
-Overfull \hbox (19.53043pt too wide) in paragraph at lines 275--284
+Overfull \hbox (19.53043pt too wide) in paragraph at lines 291--300
  [] 
  []
 
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 313.
+Package pdftex.def Info: ./img/background.png  used on input line 315.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
 [10]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 333.
+Package pdftex.def Info: ./img/background.png  used on input line 338.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [11]
 <img/10.png, id=83, 321.2pt x 273.02pt>
 File: img/10.png Graphic file (type png)
 <use img/10.png>
-Package pdftex.def Info: img/10.png  used on input line 339.
+Package pdftex.def Info: img/10.png  used on input line 355.
 (pdftex.def)             Requested size: 160.59961pt x 136.50966pt.
 <img/10a.png, id=84, 283.0575pt x 211.79124pt>
 File: img/10a.png Graphic file (type png)
 <use img/10a.png>
-Package pdftex.def Info: img/10a.png  used on input line 345.
+Package pdftex.def Info: img/10a.png  used on input line 361.
 (pdftex.def)             Requested size: 141.5284pt x 105.89536pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 349.
+Package pdftex.def Info: ./img/background.png  used on input line 364.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [12 <./img/10.png> <./img/10a.png>]
-<img/10b.png, id=94, 350.30875pt x 284.06125pt>
+ [12 <./img/10.png>]
+<img/10b.png, id=92, 350.30875pt x 284.06125pt>
 File: img/10b.png Graphic file (type png)
 <use img/10b.png>
-Package pdftex.def Info: img/10b.png  used on input line 356.
+Package pdftex.def Info: img/10b.png  used on input line 372.
 (pdftex.def)             Requested size: 175.15395pt x 142.03026pt.
-<img/11.png, id=95, 963.6pt x 212.795pt>
+<img/11.png, id=93, 963.6pt x 212.795pt>
 File: img/11.png Graphic file (type png)
 <use img/11.png>
-Package pdftex.def Info: img/11.png  used on input line 385.
+Package pdftex.def Info: img/11.png  used on input line 401.
 (pdftex.def)             Requested size: 385.43317pt x 85.11649pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 386.
+Package pdftex.def Info: ./img/background.png  used on input line 402.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
- [13 <./img/10b.png>]
+ [13 <./img/10a.png> <./img/10b.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 424.
+Package pdftex.def Info: ./img/background.png  used on input line 433.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [14 <./img/11.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 451.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 451.
+Package pdftex.def Info: ./img/background.png  used on input line 467.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
  (./simulado.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
 Package rerunfilecheck Info: File `simulado.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 451.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 467.
  ) 
 Here is how much of TeX's memory you used:
  8514 strings out of 483140
  128577 string characters out of 5965151
- 400387 words of memory out of 5000000
+ 399387 words of memory out of 5000000
  23342 multiletter control sequences out of 15000+600000
  539039 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,13n,42p,5108b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,14n,42p,5108b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/iago/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
@@ -839,7 +840,7 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on simulado.pdf (15 pages, 781388 bytes).
+Output written on simulado.pdf (15 pages, 781987 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
