@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  2 OCT 2020 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  2 OCT 2020 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,43 +787,43 @@ Package pdftex.def Info: img/10a.png  used on input line 389.
 (pdftex.def)             Requested size: 141.5284pt x 105.89536pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 393.
+Package pdftex.def Info: ./img/background.png  used on input line 397.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [13 <./img/10.png> <./img/10a.png>]
 <img/10b.png, id=104, 350.30875pt x 284.06125pt>
 File: img/10b.png Graphic file (type png)
 <use img/10b.png>
-Package pdftex.def Info: img/10b.png  used on input line 400.
+Package pdftex.def Info: img/10b.png  used on input line 407.
 (pdftex.def)             Requested size: 175.15395pt x 142.03026pt.
 <img/11.png, id=105, 963.6pt x 212.795pt>
 File: img/11.png Graphic file (type png)
 <use img/11.png>
-Package pdftex.def Info: img/11.png  used on input line 429.
+Package pdftex.def Info: img/11.png  used on input line 447.
 (pdftex.def)             Requested size: 385.43317pt x 85.11649pt.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 430.
+Package pdftex.def Info: ./img/background.png  used on input line 448.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [14 <./img/10b.png>]
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 468.
+Package pdftex.def Info: ./img/background.png  used on input line 473.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
 
 [15 <./img/11.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
 File: ./img/background.png Graphic file (type png)
 <use ./img/background.png>
-Package pdftex.def Info: ./img/background.png  used on input line 495.
+Package pdftex.def Info: ./img/background.png  used on input line 513.
 (pdftex.def)             Requested size: 597.46736pt x 845.07408pt.
  [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
  (./simulado.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 513.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
 Package rerunfilecheck Info: File `simulado.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 513.
  ) 
 Here is how much of TeX's memory you used:
  8520 strings out of 483140
@@ -832,7 +832,7 @@ Here is how much of TeX's memory you used:
  23342 multiletter control sequences out of 15000+600000
  539039 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,13n,42p,5108b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,42p,5108b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/iago/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
@@ -846,7 +846,7 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on simulado.pdf (16 pages, 785128 bytes).
+Output written on simulado.pdf (16 pages, 786995 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  122 compressed objects within 2 object streams
