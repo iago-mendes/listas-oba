@@ -541,6 +541,20 @@
             \item \textbf{Questão 15) (1 ponto) [USAAAO 2020 adaptada]} Considere os seguintes dados para responder a pergunta desta questão: \linebreak\linebreak $>$ Massa do Sol: $2 \cdot 10^{30} \, kg$ \linebreak $>$ Massa de Júpiter: $2 \cdot 10^{27} \, kg$ \linebreak $>$ Distância Júpiter-Sol: $5.2 \, UA = 7,8 \cdot 10^{11} \, m$
                 \begin{itemize}
                     \item \textbf{Pergunta 15) (1 ponto)} Calcule a velocidade do Sol ao redor do centro de massa devido à presença de Júpiter.
+                        \red{\begin{itemize}
+                            \item Inicialmente, precisamos encontrar a distância de cada componente ao centro de massa, o que pode ser feito usando a relação das massas e a distância entre as componentes:
+                                \begin{equation*}
+                                    \begin{cases}
+                                        m_S\cdot r_S=m_J\cdot r_J \\
+                                        r_{J-S} = r_S+r_J
+                                    \end{cases} \quad \therefore \quad r_S=\frac{r_{J-S}}{1+\frac{m_S}{m_J}}
+                                \end{equation*}
+                            \item Se aproximarmos a órbita para um círculo, temos o seguinte:
+                                \begin{equation*} \begin{gathered}
+                                    v_S=\sqrt{\frac{G(m_S+m_J)}{r_S}}=\sqrt{\frac{G(m_S+m_J) \left(1+\frac{m_S}{m_J}\right)}{r_{J-S}}} \\
+                                    v_S=\sqrt{\frac{6,69 \cdot 10^{-11}(2 \cdot 10^{30}+2 \cdot 10^{27}) \left(1+\frac{2 \cdot 10^{30}}{2 \cdot 10^{27}}\right)}{7,8 \cdot 10^{11}}} \approx 12 \, \frac{m}{s}
+                                \end{gathered} \end{equation*}
+                        \end{itemize}}
                         \begin{itemize}
                             \item[$(\red{X})$] $12 \, \frac{m}{s}$
                             \item[$(\quad)$] $6 \, \frac{m}{s}$
