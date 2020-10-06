@@ -538,7 +538,7 @@
                         \end{itemize}
                 \end{itemize}
             
-            \item \textbf{Questão 15) (1 ponto) [USAAAO 2020 adaptada]} Considere os seguintes dados para responder a pergunta desta questão: \linebreak\linebreak $>$ Massa do Sol: $2 \cdot 10^{30} \, kg$ \linebreak $>$ Massa de Júpiter: $2 \cdot 10^{27} \, kg$ \linebreak $>$ Distância Júpiter-Sol: $5.2 \, UA = 7,8 \cdot 10^{11} \, m$
+            \item \textbf{Questão 15) (1 ponto) [USAAAO 2020 adaptada]} Considere os seguintes dados para responder a pergunta desta questão: \linebreak\linebreak $>$ Massa do Sol: $2 \cdot 10^{30} \, kg$ \linebreak $>$ Massa de Júpiter: $2 \cdot 10^{27} \, kg$ \linebreak $>$ Distância Júpiter-Sol: $5.2 \, UA = 7,8 \cdot 10^{11} \, m$ \linebreak $>$ Período orbital de Júpiter: $12$ anos $\approx 3.8 \cdot 10^8 \, s$
                 \begin{itemize}
                     \item \textbf{Pergunta 15) (1 ponto)} Calcule a velocidade do Sol ao redor do centro de massa devido à presença de Júpiter.
                         \red{\begin{itemize}
@@ -549,11 +549,14 @@
                                         r_{J-S} = r_S+r_J
                                     \end{cases} \quad \therefore \quad r_S=\frac{r_{J-S}}{1+\frac{m_S}{m_J}}
                                 \end{equation*}
-                            \item Se aproximarmos a órbita para um círculo, temos o seguinte:
-                                \begin{equation*} \begin{gathered}
-                                    v_S=\sqrt{\frac{G(m_S+m_J)}{r_S}}=\sqrt{\frac{G(m_S+m_J) \left(1+\frac{m_S}{m_J}\right)}{r_{J-S}}} \\
-                                    v_S=\sqrt{\frac{6,69 \cdot 10^{-11}(2 \cdot 10^{30}+2 \cdot 10^{27}) \left(1+\frac{2 \cdot 10^{30}}{2 \cdot 10^{27}}\right)}{7,8 \cdot 10^{11}}} \approx 12 \, \frac{m}{s}
-                                \end{gathered} \end{equation*}
+                            \item Sabendo que o período orbital das componentes em um sistema binário deve ser o mesmo, temos:
+                                \begin{equation*}
+                                    T_S=T_J\approx3.8 \cdot 10^8 \, s
+                                \end{equation*}
+                            \item Por fim, basta calcular a velocidade do Sol (aproximando sua órbita para uma circunferência):
+                                \begin{equation*}
+                                    v_S = \frac{2\pi r_S}{T_S} = \frac{2 \pi r_{J-S}}{T_J\left(1+\frac{m_S}{m_J}\right)} = \frac{2 \pi \cdot 7,8 \cdot 10^{11}}{3.8 \cdot 10^8 \left(1+\frac{2 \cdot 10^{30}}{2 \cdot 10^{27}}\right)} \approx 12 \, \frac{m}{s}
+                                \end{equation*}
                         \end{itemize}}
                         \begin{itemize}
                             \item[$(\red{X})$] $12 \, \frac{m}{s}$
