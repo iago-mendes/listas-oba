@@ -62,8 +62,17 @@
 
 \newenvironment{alternativas}
 {
-	\begin{enumerate}[label=$(\quad)$]
+	\begin{itemize}[label=$(\quad)$]
 }
 {
-	\end{enumerate}
+	\end{itemize}
+}
+
+\newcommand{\encerramento}
+{
+	\begin{flushright}
+		\begin{large}
+			Bons estudos!
+		\end{large}
+	\end{flushright}
 }
