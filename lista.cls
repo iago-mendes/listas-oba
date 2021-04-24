@@ -76,3 +76,38 @@
 		\end{large}
 	\end{flushright}
 }
+
+\newcount\myloopcounter
+\newcommand{\repeatIt}[2]
+{
+  \myloopcounter0
+  \loop\ifnum\myloopcounter < #1
+  #2
+  \advance\myloopcounter by 1
+  \repeat
+}
+
+\newcommand{\espacoCalculo}[1][5cm]
+{
+	\vspace*{#1}
+}
+
+\newcommand{\espacoRespostaPergunta}
+{
+	\textbf{Resposta \thesubsection)}:\repeatIt{20}{.}
+}
+
+\newcommand{\espacoRespostaQuestao}
+{
+	\textbf{Resposta \thesection)}:\repeatIt{20}{.}
+}
+
+\renewenvironment{equation}
+{
+	\begin{equation*}
+		\begin{gathered}
+}
+{
+		\end{gathered}
+	\end{equation*}
+}
