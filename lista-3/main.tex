@@ -1,0 +1,242 @@
+\documentclass{../lista}
+
+\begin{document}
+	\cabecalho{3}{Questões}{Fotometria \& Estrelas}{Iago Mendes}
+
+	\begin{questao}{1 ponto}
+		A nossa estrela -- o Sol -- possui 6 camadas, 3 internas e 3 externas. Observe a seguinte representação com números de $1$ a $6$ em cada camada solar:
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.6]{./img/1.png}
+		\end{figure}
+
+		\begin{pergunta}{0,6 ponto) (0,1 cada acerto}
+			Abaixo, os 6 nomes das camadas solares estão em ordem aleatória. Insira o número correspondente ao representado na imagem.
+			\begin{multicols}{2} \begin{alternativas}
+				\item Zona convectiva
+				\item Coroa
+				\item Fotosfera
+				\item Núcleo
+				\item Zona radiativa
+				\item Cromosfera
+			\end{alternativas} \end{multicols}
+		\end{pergunta}
+
+		\begin{pergunta}{0,1 ponto}
+			Quais as formas de transmissão de calor nas camadas $2$ e $3$, respectivamente?
+			\begin{alternativas}
+				\item Condução e Radiação
+				\item Radiação e Convecção
+				\item Convecção e Condução
+				\item Convecção e Radiação
+			\end{alternativas}
+		\end{pergunta}
+
+		\begin{pergunta}{0,3 ponto}
+			Algo que ainda intriga vários cientistas é o fato de a camada $6$ possuir uma maior temperatura do que as camadas $4$ e $5$. O fator responsável por essa peculiaridade mais aceito atualmente também causa irregularidades na atmosfera solar, como os ventos solares. Qual é esse fator?
+			\begin{alternativas}
+				\item Equilíbrio entre força gravitacional e a pressão de radiação
+				\item Escapamento de neutrinos originados pelas reações nucleares
+				\item Movimento do Sol ao redor do baricentro do Sistema Solar
+				\item Variação dos campos magnéticos solares
+			\end{alternativas}
+		\end{pergunta}
+	\end{questao}
+
+	\begin{questao}{1 ponto}
+		A energia proveniente do Sol é originada por meio do ciclo p-p, o qual pode ser simplificado para a seguinte reação nuclear:
+		\begin{equation}
+			H_1^2 + H_1^3 \longrightarrow He_2^4 + n_0^1 + \gamma
+		\end{equation}
+		em que $H_1^2$ (deutério) e $H_1^3$ (trítio) são isótopos do hidrogênio, $He_2^4$ é um átomo de hélio, $n_0^1$ é um nêutron, e $\gamma$ representa a energia liberada. \\
+		As massas atômicas envolvidas nessa reação são dadas a seguir:
+		\begin{multicols}{2} \begin{itemize}
+			\item[$>$] $m(H_1^2) \simeq 2,014 \; uma$
+			\item[$>$] $m(H_1^3) \simeq 3,016 \; uma$
+			\item[$>$] $m(He_2^4) \simeq 4,003 \; uma$
+			\item[$>$] $m(n_0^1) \simeq 1,009 \; uma$
+		\end{itemize} \end{multicols}
+
+		\begin{pergunta}{0,4 ponto}
+			Calcule a taxa de massa perdida ($t$), em porcentagem, usando a reação nuclear dada. \\
+			\textbf{Dica:} $t= \left| \frac{m'-m_0}{m_0} \right|$, em que $m_0$ e $m'$ são as massas antes e depois da reação, respectivamente.
+			
+			\espacoCalculo
+			\espacoRespostaPergunta
+		\end{pergunta}
+
+		\begin{pergunta}{0,3 ponto}
+			Considerando que toda a massa do Sol seja composta por isótopos de hidrogênio e que o ciclo p-p é a única reação nuclear que ocorre até tais isótopos se esgotarem, qual será a massa convertida em energia, em $kg$? \\
+			\textbf{Dados:} $M_{Sol} \simeq 2 \cdot 10^{30} \; kg$
+			
+			\espacoCalculo
+			\espacoRespostaPergunta
+		\end{pergunta}
+
+		\begin{pergunta}{0,3 ponto}
+			Qual a quantidade de energia gerada pela massa calculada no item anterior? \\
+			\textbf{Dica:} $E = m c^2$
+			
+			\espacoCalculo
+			\espacoRespostaPergunta
+		\end{pergunta}
+	\end{questao}
+
+	\begin{questao}{1 ponto}
+		Na Astronomia, os conceitos de Luminosidade e Fluxo são frequentemente usados e, portanto, é importante saber diferenciá-los. Observe o esquema seguinte representando a emissão de energia do Sol:
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.45]{./img/3.png}
+		\end{figure}
+		Como você pode perceber, o ``brilho" é reduzido à medida que a distância da fonte luminosa aumenta. Contudo, a energia emitida deve ser a mesma, visto que não se pode perder energia no universo. \\
+		Nesse contexto, precisamos fazer duas definições:
+		\begin{enumerate}
+			\item \textit{Luminosidade:} é a quantidade de energia emitida a cada unidade de tempo (potência) e a sua unidade no S.I. é o watt $\left( W=\frac{J}{s} \right)$
+			\item \textit{Fluxo:} é a quantidade de potência recebida a cada unidade de área e a sua unidade no S.I. é watt por metro quadrado $\left( \frac{W}{m^2} \right)$
+		\end{enumerate}
+		Dito isso, é possível analisar que os melhores termos para ``brilho" e ``energia emitida" seriam \textit{fluxo} e \textit{luminosidade}, respectivamente. Como já discutimos, a luminosidade deve se manter constante na superfície da esfera luminosa emitida e o fluxo é inversamente proporcional à distância da fonte luminosa. Para encontrarmos uma fórmula que descreva essas quantidades, basta inserirmos a área superficial dessa esfera ($A=4 \pi r^2$):
+		\begin{equation}
+			F = \frac{L}{4 \pi r^2}
+		\end{equation}
+		em que $F$ é o fluxo, $L$ é a luminosidade, e $r$ é a distância à fonte (raio da esfera luminosa).
+
+		\begin{pergunta}{0,5 ponto}
+			A distância entre a Terra e o Sol é $1 \; UA \approx 1,5 \cdot 10^{11} \; m$. Sabendo disso e que $L_{Sol} \simeq 3,8 \cdot 10^{26} \; W$, determine o fluxo solar que recebemos. \\
+			\textbf{Dica:} para facilitar as contas, considere $\pi \approx 3$
+
+			\espacoCalculo
+			\espacoRespostaPergunta
+		\end{pergunta}
+
+		\begin{pergunta}{0,5 ponto}
+			O fluxo da estrela Sirius -- alfa da constelação Cão Maior -- recebido na Terra é $F_{Sirius} \simeq 1,2 \cdot 10^{-7} \; \frac{W}{m^2}$ e a sua luminosidade é $L_{Sirius} \simeq 9,7 \cdot 10^{27}$. Se a Terra estivesse a uma mesma distância do Sol e de Sirius, qual estrela possuiria o maior fluxo?
+
+			\begin{alternativas}
+				\item Sol
+				\item Sirius
+				\item As duas estrelas teriam o mesmo fluxo
+				\item Impossível de determinar com as informações passadas
+			\end{alternativas}
+		\end{pergunta}
+	\end{questao}
+
+	\begin{questao}{1 ponto}
+		A luminosidade das estrelas depende tanto em seu tamanho quanto em sua temperatura. Nesse sentido, podemos usar a Lei de Stefan-Boltzmann para mostrar matematicamente essa relação:
+		\begin{equation}
+			L=4 \pi R^2 \sigma T^4
+		\end{equation}
+		em que $L$ é a luminosidade, $R$ é o raio, $T$ é a temperatura, e $\sigma$ é a constante de Stefan-Boltzmann $\left( \sigma \simeq 5,67 \cdot 10^{-8} \; \frac{W}{m^2K^4} \right)$. \\
+		Mais importante do que memorizar essa equação, é preciso entender que a luminosidade é diretamente proporcional ao raio ao quadrado e à temperatura elevada à quarta pontência. Matematicamente, temos:
+		\begin{equation}
+			L \propto R^2 T^4
+		\end{equation}
+		Além disso, podemos determinar a cor de uma estrela a partir de sua temperatura (e vice-versa). Para tanto, precisamos utilizar a Lei de Wien:
+		\begin{equation}
+			\lambda T = b
+		\end{equation}
+		em que $\lambda$ é o comprimento de onda em que a maior quantidade de energia é emitida pela estrela, $T$ é a sua temperatura, e $b$ é a constante de Wien ($b \simeq 2,90 \cdot 10^{-3} \; mK$).
+
+		\begin{pergunta}{0,1 ponto}
+			Se o raio de uma estrela for reduzido pela metade $\left( R'=\frac{R_0}{2} \right)$ e sua temperatura for multiplicada por 2 ($T'=2T_0$), o que acontecerá com a luminosidade?
+
+			\begin{alternativas}
+				\item $L'=L_0$
+				\item $L'=2L_0$
+				\item $L'=\frac{L_0}{2}$
+				\item $L'=4L_0$
+				\item $L'=\frac{L_0}{4}$
+			\end{alternativas}
+		\end{pergunta}
+
+		\begin{pergunta}{0,4 ponto}
+			O raio do Sol é $R_{Sol} \approx 7 \cdot 10^8 \; m$ e sua temperatura é $T_{Sol} \approx 6.000 \; K$. Sabendo que essas mesmas características da estrela Sírius são $R_S \approx 1 \cdot 10^9 \; m$ e $T_S \approx 10.000 \; K$, encontre a razão $\frac{L_S}{L_{Sol}}$.
+			\espacoCalculo
+			\textbf{Resposta 4b)}:....................
+		\end{pergunta}
+
+		\begin{pergunta}{0,5 ponto}
+			Usando as temperaturas $T_{Sol}$ e $T_S$ e com a ajuda da tabela seguinte, marque com os números 1 (para o Sol) e 2 (para Sirius) os intervalos de cores mais próximos ao pico de emissão das estrelas. \\
+
+			\textbf{Espaço para cálculos:}
+			\espacoCalculo
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.5]{./img/4.png}
+			\end{figure}
+			\begin{multicols}{3} \begin{alternativas}
+				\item Violeta -- Azul
+				\item Ciano -- Verde
+				\item Amarelo -- Vermelho
+			\end{alternativas} \end{multicols}
+		\end{pergunta}
+	\end{questao}
+
+	\begin{questao}{1 ponto}
+		Exoplanetas podem ser encontrados de 5 formas, mas a maneira mais eficaz até o momento é o \textit{Método de Trânsito}. De maneira simplificada, esse método consiste em detectar a diminuição da luminosidade de uma estrela causada pela passagem do exoplaneta. Para entender melhor como isso acontece, observe o esquema seguinte:
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.7]{./img/5a.png}
+		\end{figure}
+
+		\begin{pergunta}{0,5 ponto}
+			Um problema do \textit{Método de Trânsito} é que a sua eficácia depende da órbita do planeta visualizada. Nesse sentido, marque o(s) exoplaneta(s) abaixo que poderiam ser descobertos por meio desse método.
+
+			\begin{multicols}{3}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.2]{./img/5b1.png}
+					\captionsetup{labelformat=empty}
+					\caption{$(\quad)$}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.2]{./img/5b2.png}
+					\captionsetup{labelformat=empty}
+					\caption{$(\quad)$}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.2]{./img/5b3.png}
+					\captionsetup{labelformat=empty}
+					\caption{$(\quad)$}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.2]{./img/5b4.png}
+					\captionsetup{labelformat=empty}
+					\caption{$(\quad)$}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.2]{./img/5b5.png}
+					\captionsetup{labelformat=empty}
+					\caption{$(\quad)$}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.2]{./img/5b6.png}
+					\captionsetup{labelformat=empty}
+					\caption{$(\quad)$}
+				\end{figure}
+			\end{multicols}
+		\end{pergunta}
+
+		\begin{pergunta}{0,5 ponto}
+			Sabendo que $R_e$ e $R_p$ são respectivamente os raios da estrela e do exoplaneta, qual a razão das luminosidades $L_2$ (medida em $t_2$) e $L_1$ (medida em $t_1$)? \\
+			\textbf{Dica:} neste caso, podemos considerar que a luminosidade é proporcional à área da seção transversal. \\
+
+			\textbf{Espaço para cálculos:}
+			\espacoCalculo
+
+			\begin{multicols}{2} \begin{alternativas}
+				\item $\frac{L_2}{L_1} = \left( \frac{R_p}{R_e} \right)^2$
+				\item $\frac{L_2}{L_1} = \left( \frac{R_e}{R_p} \right)^2 $
+				\item $\frac{L_2}{L_1} = \frac{R_e^2-R_p^2}{R_e^2}$
+				\item $\frac{L_2}{L_1} = \frac{R_p^2-R_e^2}{R_p^2}$
+			\end{alternativas} \end{multicols}
+		\end{pergunta}
+	\end{questao}
+	
+	\encerramento
+\end{document}
