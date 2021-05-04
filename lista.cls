@@ -14,10 +14,18 @@
 \RequirePackage{wallpaper}
 \RequirePackage{titlesec}
 \RequirePackage{enumitem}
+\usepackage{array}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
 
 \CenterWallPaper{1}{../img/background.png}
 \titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
 \titleformat{\subsection}{\normalfont\bfseries}{\thesubsection.}{0.5em}{}
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 \hypersetup
 {
