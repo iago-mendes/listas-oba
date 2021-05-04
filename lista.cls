@@ -21,7 +21,7 @@
 \usepackage{mathrsfs}
 \usetikzlibrary{arrows}
 
-\CenterWallPaper{1}{../img/background.png}
+\CenterWallPaper{1}{../assets/background.png}
 \titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
 \titleformat{\subsection}{\normalfont\bfseries}{\thesubsection.}{0.5em}{}
 
@@ -39,7 +39,7 @@
 {
 	\begin{figure}
 		\centering
-		\href{https://ligadeastronomia.com}{\includegraphics[scale=0.6]{../img/logos.png}}
+		\href{https://ligadeastronomia.com}{\includegraphics[scale=0.6]{../assets/logos.png}}
 	\end{figure}
 	
 	\begin{center}
@@ -55,6 +55,12 @@
 		Material elaborado por \textbf{#4}
 	\end{flushright}
 }
+
+\newcommand{\red}[1]
+{
+	\textcolor{red}{#1}
+}
+
 
 \newenvironment{questao}[1] % pontuação
 {
@@ -74,6 +80,11 @@
 }
 {
 	\end{itemize}
+}
+
+\newcommand{\alternativaMarcada}[1][\red{X}]
+{
+	\item[$(#1)$]
 }
 
 \newcommand{\encerramento}
