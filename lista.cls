@@ -116,9 +116,19 @@
 	\textbf{Resposta \thesubsection)}:\repeatIt{20}{.}
 }
 
+\newcommand{\respostaPergunta}[1]
+{
+	\textbf{Resposta \thesubsection)}: \red{#1}
+}
+
 \newcommand{\espacoRespostaQuestao}
 {
 	\textbf{Resposta \thesection)}:\repeatIt{20}{.}
+}
+
+\newcommand{\respostaQuestao}[1]
+{
+	\textbf{Resposta \thesection)}: \red{#1}
 }
 
 \renewenvironment{equation}
