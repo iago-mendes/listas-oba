@@ -1,8 +1,8 @@
 \documentclass{../lista}
 
 \begin{document}
-	\cabecalho{3}{Questões}{Fotometria \& Estrelas}{Iago Mendes}
-
+	\cabecalho{3}{\red{Gabarito}}{Fotometria \& Estrelas}{Iago Mendes}
+	
 	\begin{questao}{1 ponto}
 		A nossa estrela -- o Sol -- possui 6 camadas, 3 internas e 3 externas. Observe a seguinte representação com números de $1$ a $6$ em cada camada solar:
 		\begin{figure}[H]
@@ -13,12 +13,12 @@
 		\begin{pergunta}{0,6 ponto) (0,1 cada acerto}
 			Abaixo, os 6 nomes das camadas solares estão em ordem aleatória. Insira o número correspondente ao representado na imagem.
 			\begin{multicols}{2} \begin{alternativas}
-				\item Zona convectiva
-				\item Coroa
-				\item Fotosfera
-				\item Núcleo
-				\item Zona radiativa
-				\item Cromosfera
+				\alternativaMarcada[$\red{3}$] Zona convectiva
+				\alternativaMarcada[$\red{6}$] Coroa
+				\alternativaMarcada[$\red{4}$] Fotosfera
+				\alternativaMarcada[$\red{1}$] Núcleo
+				\alternativaMarcada[$\red{2}$] Zona radiativa
+				\alternativaMarcada[$\red{5}$] Cromosfera
 			\end{alternativas} \end{multicols}
 		\end{pergunta}
 
@@ -26,7 +26,7 @@
 			Quais as formas de transmissão de calor nas camadas $2$ e $3$, respectivamente?
 			\begin{alternativas}
 				\item Condução e Radiação
-				\item Radiação e Convecção
+				\alternativaMarcada Radiação e Convecção
 				\item Convecção e Condução
 				\item Convecção e Radiação
 			\end{alternativas}
@@ -38,7 +38,7 @@
 				\item Equilíbrio entre força gravitacional e a pressão de radiação
 				\item Escapamento de neutrinos originados pelas reações nucleares
 				\item Movimento do Sol ao redor do baricentro do Sistema Solar
-				\item Variação dos campos magnéticos solares
+				\alternativaMarcada Variação dos campos magnéticos solares
 			\end{alternativas}
 		\end{pergunta}
 	\end{questao}
@@ -61,24 +61,44 @@
 			Calcule a taxa de massa perdida ($t$), em porcentagem, usando a reação nuclear dada. \\
 			\textbf{Dica:} $t= \left| \frac{m'-m_0}{m_0} \right|$, em que $m_0$ e $m'$ são as massas antes e depois da reação, respectivamente.
 			
-			\espacoCalculo
-			\espacoRespostaPergunta
+			\red{\begin{itemize}
+				\item Primeiramente, precisamos calcular $m_0$ e $m'$:
+					$$m_0 = m(H_1^2) + m(H_1^3) = 2,014 + 3,016 = 5,030 \; uma$$
+					$$m' = m(He_2^4) + m(n_0^1) = 4,003 + 1,009 = 5,012 \; uma$$
+				\item Assim, a variação de massa é:
+					$$\Delta m = m' - m_0 = 5,012 - 5,030 = - 0,018 \; uma$$
+				\item Finalmente, temos:
+					$$t = \left| \frac{\Delta m}{m_0} \right| = \left| - \frac{0,018}{5,030} \right|$$
+					$$\therefore \quad t \simeq 0,004 = 0,4\%$$
+			\end{itemize}}
+
+			\respostaPergunta{$0,4\%$}
 		\end{pergunta}
 
 		\begin{pergunta}{0,3 ponto}
 			Considerando que toda a massa do Sol seja composta por isótopos de hidrogênio e que o ciclo p-p é a única reação nuclear que ocorre até tais isótopos se esgotarem, qual será a massa convertida em energia, em $kg$? \\
 			\textbf{Dados:} $M_{Sol} \simeq 2 \cdot 10^{30} \; kg$
 			
-			\espacoCalculo
-			\espacoRespostaPergunta
+			\red{\begin{itemize}
+				\item Basta multiplicar $M_{Sol}$ por $t$:
+					$$m = M_{Sol} \cdot t = 2 \cdot 10^{30} \cdot 4 \cdot 10^{-3}$$
+					$$\therefore \quad m = 8 \cdot 10^{27} \; kg$$
+			\end{itemize}}
+
+			\respostaPergunta{$8 \cdot 10^{27} \; kg$}
 		\end{pergunta}
 
 		\begin{pergunta}{0,3 ponto}
 			Qual a quantidade de energia gerada pela massa calculada no item anterior? \\
 			\textbf{Dica:} $E = m c^2$
 			
-			\espacoCalculo
-			\espacoRespostaPergunta
+			\red{\begin{itemize}
+				\item Sabendo que $c=3 \cdot 10^8 \; \frac{m}{s}$, temos:
+					$$E = m \cdot c^2 = 8 \cdot 10^{27} \cdot (3 \cdot 10^8)^2$$
+					$$\therefore \quad E = 7,2 \cdot 10^{43} \approx 7 \cdot 10^{43} \; J$$
+			\end{itemize}}
+
+			\respostaPergunta{$7 \cdot 10^{43} \; J$}
 		\end{pergunta}
 	\end{questao}
 
@@ -104,16 +124,27 @@
 			A distância entre a Terra e o Sol é $1 \; UA \approx 1,5 \cdot 10^{11} \; m$. Sabendo disso e que $L_{Sol} \simeq 3,8 \cdot 10^{26} \; W$, determine o fluxo solar que recebemos. \\
 			\textbf{Dica:} para facilitar as contas, considere $\pi \approx 3$
 
-			\espacoCalculo
-			\espacoRespostaPergunta
+			\red{\begin{itemize}
+				\item Aplicando os valores na fórmula do fluxo, temos:
+					$$F_{Sol} = \frac{L_{Sol}}{4 \pi r^2} = \frac{3,8 \cdot 10^{26}}{4 \cdot 3 \cdot (1,5 \cdot 10^{11})^2}$$
+					$$\therefore \quad F_{Sol} \simeq 1,4 \cdot 10^3 \; \frac{W}{m^2} = 1400 \; \frac{W}{m^2}$$
+			\end{itemize}}
+
+			\respostaPergunta{$1400 \; \frac{W}{m^2}$}
 		\end{pergunta}
 
 		\begin{pergunta}{0,5 ponto}
 			O fluxo da estrela Sirius -- alfa da constelação Cão Maior -- recebido na Terra é $F_{Sirius} \simeq 1,2 \cdot 10^{-7} \; \frac{W}{m^2}$ e a sua luminosidade é $L_{Sirius} \simeq 9,7 \cdot 10^{27}$. Se a Terra estivesse a uma mesma distância do Sol e de Sirius, qual estrela possuiria o maior fluxo?
 
+			\red{\begin{itemize}
+				\item Se as 2 estrelas estivessem a uma mesma distância do da Terra, teríamos a seguinte razão:
+					$$\frac{F_{Sirius}}{F_{Sol}} = \frac{L_{Sirius}}{4 \pi r^2} \frac{4 \pi r^2}{L_{Sol}} = \frac{L_{Sirius}}{L_{Sol}}$$
+				\item Como $L_{Sirius} > L_{Sol}$, temos que $F_{Sirius} > F_{Sol}$.
+			\end{itemize}}
+
 			\begin{alternativas}
 				\item Sol
-				\item Sirius
+				\alternativaMarcada Sirius
 				\item As duas estrelas teriam o mesmo fluxo
 				\item Impossível de determinar com as informações passadas
 			\end{alternativas}
@@ -139,11 +170,18 @@
 		\begin{pergunta}{0,1 ponto}
 			Se o raio de uma estrela for reduzido pela metade $\left( R'=\frac{R_0}{2} \right)$ e sua temperatura for multiplicada por 2 ($T'=2T_0$), o que acontecerá com a luminosidade?
 
+			\red{\begin{itemize}
+				\item Usando a Lei de Stefan-Boltzmann, temos:
+					$$\frac{L'}{L_0} = \frac{4 \pi R'^2 \sigma T'^4}{4 \pi R_0^2 \sigma T_0^4} = \left( \frac{R'}{R_0} \right)^2 \cdot \left( \frac{T'}{T_0} \right)^4$$
+					$$\therefore \quad \frac{L'}{L_0} = \left( \frac{1}{2} \right)^2 \cdot 2^4 = 2^2 = 4$$
+					$$\therefore \quad L' = 4 L_0$$
+			\end{itemize}}
+
 			\begin{alternativas}
 				\item $L'=L_0$
 				\item $L'=2L_0$
 				\item $L'=\frac{L_0}{2}$
-				\item $L'=4L_0$
+				\alternativaMarcada $L'=4L_0$
 				\item $L'=\frac{L_0}{4}$
 			\end{alternativas}
 		\end{pergunta}
@@ -151,23 +189,36 @@
 		\begin{pergunta}{0,4 ponto}
 			O raio do Sol é $R_{Sol} \approx 7 \cdot 10^8 \; m$ e sua temperatura é $T_{Sol} \approx 6.000 \; K$. Sabendo que essas mesmas características da estrela Sírius são $R_S \approx 1 \cdot 10^9 \; m$ e $T_S \approx 10.000 \; K$, encontre a razão $\frac{L_S}{L_{Sol}}$.
 
-			\espacoCalculo
-			\espacoRespostaPergunta
+			\red{\begin{itemize}
+				\item Usando a Lei de Stefan-Boltzmann, temos:
+					$$\frac{L_S}{L_{Sol}} = \frac{4 \pi R_S^2 \sigma T_S^4}{4 \pi R_{Sol}^2 \sigma T_{Sol}^4} = \left( \frac{R_S}{R_{Sol}} \right)^2 \cdot \left( \frac{T_S}{T_{Sol}} \right)^4$$
+					$$\therefore \quad \frac{L_S}{L_{Sol}} = \left( \frac{1 \cdot 10^9}{7 \cdot 10^8} \right)^2 \cdot \left( \frac{1 \cdot 10^4}{6 \cdot 10^3} \right)^4 = \frac{10^6}{1.764}$$
+					$$\therefore \quad \frac{L_S}{L_{Sol}} \approx 6 \cdot 10^2 = 600$$
+			\end{itemize}}
+
+			\respostaPergunta{$\frac{10^6}{1.764} \approx 600$}
 		\end{pergunta}
 
 		\begin{pergunta}{0,5 ponto}
 			Usando as temperaturas $T_{Sol}$ e $T_S$ e com a ajuda da tabela seguinte, marque com os números 1 (para o Sol) e 2 (para Sirius) os intervalos de cores mais próximos ao pico de emissão das estrelas. \\
 
 			\textbf{Espaço para cálculos:}
-			\espacoCalculo
+			\red{\begin{itemize}
+				\item Por meio da Lei de Wien, podemos calcular os comprimentos de onda do Sol e de Sirius:
+					$$\lambda_{Sol} = \frac{b}{T_{Sol}} = \frac{2,90 \cdot 10^{-3}}{6 \cdot 10^3} \approx 5 \cdot 10^{-7} \; m$$
+					$$\therefore \quad \lambda_{Sol} = 500 \; nm$$
+					$$$$
+					$$\lambda_S = \frac{b}{T_S} = \frac{2,90 \cdot 10^{-3}}{1 \cdot 10^{4}} \approx 3 \cdot 10^{-7} \; m$$
+					$$\therefore \quad \lambda_S = 300 nm$$
+			\end{itemize}}
 
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.5]{./img/4.png}
 			\end{figure}
 			\begin{multicols}{3} \begin{alternativas}
-				\item Violeta -- Azul
-				\item Ciano -- Verde
+				\alternativaMarcada[$\red{2}$] Violeta -- Azul
+				\alternativaMarcada[$\red{1}$] Ciano -- Verde
 				\item Amarelo -- Vermelho
 			\end{alternativas} \end{multicols}
 		\end{pergunta}
@@ -183,12 +234,16 @@
 		\begin{pergunta}{0,5 ponto}
 			Um problema do \textit{Método de Trânsito} é que a sua eficácia depende da órbita do planeta visualizada. Nesse sentido, marque o(s) exoplaneta(s) abaixo que poderiam ser descobertos por meio desse método.
 
+			\red{\begin{itemize}
+				\item Para que um exoplaneta possa ser descoberto pelo \textit{Método de Trânsito}, sua órbita precisa passar em frente a sua estrela.
+			\end{itemize}}
+
 			\begin{multicols}{3}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.2]{./img/5b1.png}
 					\captionsetup{labelformat=empty}
-					\caption{$(\quad)$}
+					\caption{$(\red{X})$}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
@@ -200,7 +255,7 @@
 					\centering
 					\includegraphics[scale=0.2]{./img/5b3.png}
 					\captionsetup{labelformat=empty}
-					\caption{$(\quad)$}
+					\caption{$(\red{X})$}
 				\end{figure}
 				\begin{figure}[H]
 					\centering
@@ -218,7 +273,7 @@
 					\centering
 					\includegraphics[scale=0.2]{./img/5b6.png}
 					\captionsetup{labelformat=empty}
-					\caption{$(\quad)$}
+					\caption{$(\red{X})$}
 				\end{figure}
 			\end{multicols}
 		\end{pergunta}
@@ -228,12 +283,21 @@
 			\textbf{Dica:} neste caso, podemos considerar que a luminosidade é proporcional à área da seção transversal. \\
 
 			\textbf{Espaço para cálculos:}
-			\espacoCalculo
+			\red{\begin{itemize}
+				\item A área da seção transversão em $t_1$, é dada por:
+					$$At_1 = \pi R_e^2$$
+				\item A área da seção transversão em $t_2$, é dada por:
+					$$At_2 = \pi (R_e^2-R_p^2)$$
+					(basta subtrair a área transversal correspondente ao exoplaneta, $A=\pi R_p^2$, da área transversal correspondente à estrela, $A=A_1=\pi R_e^2$)
+				\item Como $L \propto A$, temos:
+					$$\frac{L_2}{L_1} = \frac{A_2}{A_1} = \frac{\pi (R_e^2-R_p^2)}{\pi R_e^2}$$
+					$$\therefore \quad \frac{L_2}{L_1} = \frac{R_e^2-R_p^2}{R_e^2}$$
+			\end{itemize}}
 
 			\begin{multicols}{2} \begin{alternativas}
 				\item $\frac{L_2}{L_1} = \left( \frac{R_p}{R_e} \right)^2$
 				\item $\frac{L_2}{L_1} = \left( \frac{R_e}{R_p} \right)^2 $
-				\item $\frac{L_2}{L_1} = \frac{R_e^2-R_p^2}{R_e^2}$
+				\alternativaMarcada $\frac{L_2}{L_1} = \frac{R_e^2-R_p^2}{R_e^2}$
 				\item $\frac{L_2}{L_1} = \frac{R_p^2-R_e^2}{R_p^2}$
 			\end{alternativas} \end{multicols}
 		\end{pergunta}
