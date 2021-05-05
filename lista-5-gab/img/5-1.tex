@@ -1,0 +1,25 @@
+\begin{figure}[H] \label{img:geocentrico}
+	\centering
+	\begin{tikzpicture}[scale=0.75]
+	[
+		line cap=round,
+		line join=round,
+		>=triangle 45,
+		x=1cm,
+		y=1cm
+	]
+		\draw [line width=2pt] (0,0) circle (4cm);
+		\draw [line width=2pt] (4,0) circle (1cm);
+		\draw [->,line width=2pt,color=brown] (5,0) -- (5,1);
+		\draw [->,line width=2pt,color=red] (4,0) -- (4,2);
+		\draw (0,0) node[anchor=north west] {Terra};
+		\draw (5,0) node[anchor=north west] {Planeta};
+		\begin{scriptsize}
+			\draw [fill=green] (0,0) circle (4.5pt);
+			\draw [fill=red] (4,0) circle (3pt);
+			\draw [fill=brown] (5,0) circle (4.5pt);
+		\end{scriptsize}
+	\end{tikzpicture}
+	\captionsetup{labelformat=empty}
+	\caption{\textbf{Esquema 1:} Modelo geocêntrico}
+\end{figure}
