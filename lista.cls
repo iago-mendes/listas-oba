@@ -22,8 +22,9 @@
 \usetikzlibrary{arrows}
 
 \CenterWallPaper{1}{../assets/background.png}
-\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
-\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection.}{0.5em}{}
+
+\titleformat{\section}{\large\bfseries}{\thesectionª}{0.5em}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsectionª}{0.5em}{}
 
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
@@ -56,21 +57,51 @@
 	\end{flushright}
 }
 
+\newcommand{\cabecalhoAlt}[3] % h1; h2; autor(s)
+{
+	\begin{figure}
+		\centering
+		\href{https://ligadeastronomia.com}{\includegraphics[scale=0.6]{../assets/logos.png}}
+	\end{figure}
+	
+	\begin{center}
+		{
+			\large
+			\textbf{#1} \\
+			#2
+		}
+		\end{center}
+	
+	\begin{flushright}
+		Material elaborado por \textbf{#3}
+	\end{flushright}
+}
+
 \newcommand{\red}[1]
 {
 	\textcolor{red}{#1}
 }
 
+\newenvironment{secao}[1] % título
+{
+	\begin{center}
+		{
+			\large
+			\textbf{#1}
+		}
+	\end{center}
+}
+{}
 
 \newenvironment{questao}[1] % pontuação
 {
-	\section{Questão (#1)}
+	\section{Questão #1}
 }
 {}
 
 \newenvironment{pergunta}[1] % pontuação
 {
-	\subsection{Pergunta (#1)}
+	\subsection{Pergunta #1}
 }
 {}
 
