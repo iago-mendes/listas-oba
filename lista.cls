@@ -23,8 +23,8 @@
 
 \CenterWallPaper{1}{../assets/background.png}
 
-\titleformat{\section}{\large\bfseries}{\thesectionª}{0.5em}{}
-\titleformat{\subsection}{\normalfont\bfseries}{\thesubsectionª}{0.5em}{}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection.}{0.5em}{}
 
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
@@ -86,7 +86,7 @@
 {
 	\begin{center}
 		{
-			\large
+			\Large
 			\textbf{#1}
 		}
 	\end{center}
