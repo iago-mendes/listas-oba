@@ -65,5 +65,70 @@
 				\end{alternativas}
 			\end{pergunta}
 		\end{questao}
+
+		\begin{questao}{(1 ponto)}
+			Deneb é uma estrela de tipo espectral A2 cuja magnitude aparente na banda V é de 1,25. Certa noite Deneb se divide em 2 novas estrelas com a mesma temperatura da inicial. \\ \\
+			Dado: \\
+			$\log(2) \approx 0,3$
+
+			\begin{pergunta}{(1 ponto)}
+				Qual a nova magnitude aparente na banda V do sistema?
+
+				\red{\begin{itemize}
+					\item Como o volume de cada uma das novas estrelas deve ser metade de Deneb, temos a seguinte relação entre os raios das novas estrelas ($R'$) e de Deneb ($R_0$):
+						\begin{equation}
+									V'=\frac{V_0}{2} \quad \therefore \quad \frac{4\pi R'^3}{3}=\frac{1}{2} \frac{4 \pi R_0^3}{3} \quad \therefore \quad \frac{R'}{R_0}=\sqrt[3]{\frac{1}{2}}
+						\end{equation}
+					\item Lembrando que $T'=T_0$, podemos usar a equação de Stefan-Boltzmann para encontrar a razão entre as luminosidades:
+						\begin{equation}
+							\frac{L'}{L_0}=\frac{4 \pi R'^2 \sigma T'^4}{4 \pi R_0^2 \sigma T_0^4}=\left(\frac{R'}{R_0}\right)^2=2^{-\frac{2}{3}}
+						\end{equation}
+					\item Calculando a razão dos fluxos recebidos, temos:
+						\begin{equation}
+							\frac{F'}{F_0}=\frac{2L'}{L_0}=2 \cdot 2^{-\frac{2}{3}}=\sqrt[3]{2}
+						\end{equation}
+					\item Finalmente, usando a relação de Pógson, temos:
+						\begin{equation}
+							m'-m_0=2,5 \log \left(\frac{F_0}{F'}\right) \quad \therefore \quad m'=2,5 \log \left(\frac{F_0}{F'}\right)+m_0\\
+							\therefore \quad m'=2,5 \log \left(2^{-\frac{1}{3}}\right)+1,25=-\frac{2,5 \cdot \log (2)}{3}+1,25 \\
+							\therefore \quad m'=-0,25 +1,25 =1,0
+						\end{equation}
+				\end{itemize}}
+
+				\begin{alternativas}
+					\item $1,25$
+					\item $2,5$
+					\alternativaMarcada $1,0$
+					\item $2,0$
+				\end{alternativas}
+			\end{pergunta}
+		\end{questao}
+
+		\begin{questao}{(1 ponto) [USAAAO 2020 adaptada]}
+			Em abril de 2020, o \textit{Event Horizon Telescope} divulgou a primeira imagem do buraco negro supermassivo da galáxia \textit{M87}. O buraco negro tem um diâmetro de aproximadamente $270 \; UA$ e está localizado a uma distância de $16,4 \; Mpc$.
+
+			\begin{pergunta}{(1 ponto)}
+				No comprimento de onda observado de $1,3 \; mm$, qual é a linha de base mínima aproximada, ou diâmetro efetivo, necessária para a imagem do buraco negro?
+
+				\red{\begin{itemize}
+					\item Calculando a resolução angular necessária para observar o buraco negro de \textit{M87}, temos:
+						\begin{equation}
+							\theta = \frac{270 \; UA}{16,4 \; Mpc} = \frac{270 \; UA}{16,4 \cdot 10^6 \cdot 206.265 \; UA} \approx 7.98 \cdot 10^{-11} \; rad
+						\end{equation}
+					\item Agora, basta usar a equação de resolução angular de telescópios para encontrar o diâmetro efetivo:
+						\begin{equation}
+							\theta = 1,22 \frac{\lambda}{D} \quad \therefore \quad D = 1,22 \frac{\lambda}{\theta} = 1,22 \frac{1,3 \; mm}{7.98 \cdot 10^{-11}} \approx 2.0 \cdot 10^{10} \; mm = 2.0 \cdot 10^{4} \; km
+						\end{equation}
+				\end{itemize}}
+
+				\begin{alternativas}
+					\item $2 \cdot 10^3 \; km$
+					\alternativaMarcada $2 \cdot 10^4 \; km$
+					\item $2 \cdot 10^5 \; km$
+					\item $2 \cdot 10^6 \; km$
+					\item $2 \cdot 10^7 \; km$
+				\end{alternativas}
+			\end{pergunta}
+		\end{questao}
 	\end{secao}
 \end{document}
